@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+p{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    color: darkblue;
+    background-color: aliceblue;
+    padding: 10px;
+}
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    color: darkblue;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15pt;
+    background-color: slategray;
+    padding: 3pt;
+    border-radius: 5pt;
+}
+li a:hover{
+    color: lightblue;
+    padding: 3pt;
+    background-color: slateblue;
+}
+span{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    font-size: 15pt;
+    background-color: slategray;
+    padding: 3pt;
+    border-radius: 5pt;
+}
+li{
+    display: inline;
+    width: 90px;
+}
+.list2{
+    position: center;
+    display: block;
+    width: 120px;
+    padding: 30pt;
+    margin:  0 auto;
+    
+}
+.list1 .dropdown{
+    position: relative;
+    display: inline-block;
+}
+.list1 .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: grey;
+    min-width: 100px;
+    z-index: 1;
+}
+.list1 .dropdown:hover .dropdown-content{
+        display: block;
+}
+div{
+    background-color: deepskyblue;
+    padding: 30px;
+    margin: 10px;
+  }
